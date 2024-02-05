@@ -415,3 +415,30 @@ button:hover {
   padding: 8px;
   margin: 3px;
 }
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .container-num {
+    display: none;
+  }
+  .flash-container {
+    flex-direction: column;
+  }
+  .flash-box {
+    align-items: center;
+  }
+  .title-container {
+    display: none;
+  }
+  .sale-prdct {
+    flex-direction: column;
+  }
+  .container-prjct {
+    flex-direction: column;
+  }
+  .last-page {
+    display: flex;
+    flex-direction: column;
+  }
+}
